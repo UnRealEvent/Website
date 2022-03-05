@@ -503,6 +503,11 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+.about {
+  background: #000;
+}
+
 .about .container {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding-bottom: 15px;
@@ -552,7 +557,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 24px;
-  color: #263d4d;
+  color: #fff;
 }
 .about .content ul {
   list-style: none;
@@ -563,9 +568,13 @@ section {
   padding-left: 28px;
   position: relative;
 }
+.about .content p {
+  color: #fff;
+}
+
 .about .content ul i {
   font-size: 24px;
-  color: #ff4a17;
+  color: #fff;
   position: absolute;
   left: 0;
   top: -2px;
@@ -667,7 +676,7 @@ section {
 # About Boxes
 --------------------------------------------------------------*/
 .about-boxes {
-  background: url("../img/about-boxes-bg.jpg") center top no-repeat fixed;
+  background: #000;
   background-size: cover;
   padding: 60px 0 30px 0;
   position: relative;
@@ -679,14 +688,23 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.92);
   z-index: 9;
 }
 .about-boxes .container, .about-boxes .container-fluid {
   position: relative;
   z-index: 10;
 }
+
+.about-boxes .card p {
+  color: #fff;
+}
+
+.about-boxes .card h5 {
+  color: #fff;
+}
+
 .about-boxes .card {
+  background: #8f2e71;
   border-radius: 3px;
   border: 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -718,7 +736,7 @@ section {
   text-align: center;
 }
 .about-boxes .card-title a {
-  color: #15222b;
+  color: #fff;
 }
 .about-boxes .card-title a:hover {
   color: #ff4a17;
